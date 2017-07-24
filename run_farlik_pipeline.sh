@@ -24,7 +24,7 @@ done
 
 mv *meth.sym subset
 
-cwltool Screw/cwl/tools/clustering.cwl --pairDirectory subset --annotation heatmap.csv 
+cwltool Screw/cwl/tools/clustering.cwl --pairDirectory subset --annotation heatmap.txt
 
 
 
